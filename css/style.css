@@ -1052,11 +1052,17 @@ blockquote {
     height: 100%;
   }
 
+  h1, .h1{
+    font-size: 50px;
+  }
+
+  .Portfolio {
+    width: 380px;
+  }
+
   .bg-shape-7 {
     display: none;
   }
-
-  
 
   .btn-group {
     width: 50%;
@@ -1064,11 +1070,17 @@ blockquote {
   }
 
   .btn-sm {
-    font-size: 10px;
+    font-size: 13px;
+    padding: 10px 15px;
   }
 
   .shuffle-item {
     padding-top: 0;
+  }
+
+  .col-lg-4 {
+    padding: 0;
+    margin-bottom: 0!important;
   }
 }
 
