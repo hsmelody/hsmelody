@@ -845,7 +845,7 @@ img {
 
   .home .content {
     max-width: 60rem;
-    margin-left: 55rem;
+    margin-left: 60rem;
   }
 
   .about .row .image {
@@ -924,6 +924,7 @@ img {
     width: 700px;
     padding: 0;
   }
+}
 
 
 .swiper-button-next,

@@ -1105,6 +1105,148 @@ blockquote {
   }
 }
 
+@media (max-width: 380px) {
+
+  body {
+    width: 380px;
+  }
+ /* home media */
+
+ .mx-auto {
+  font-size: 45px;
+ }
+
+ .hero-area {
+  padding: 180px 0 90px;
+}
+
+.layer-bg {
+  display: none;
+}
+
+.layer {
+  display: none;
+}
+
+.text-center p {
+  font-size: 15px;
+}
+
+.hi {
+  font-size: 45px;
+}
+
+
+/* about media */
+  .navbar-dark {
+    width: 380px;
+    padding-right: 40px;
+  }
+
+  .navbar-toggler {
+    width: 17%;
+  }
+
+
+  .col-md-8 p {
+    line-height: 40px;
+    font-family: "Noto Sans KR", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    color: #4c4c4c;
+  }
+
+  .page-title-alt {
+    padding: 150px 0 70px;
+  }
+
+  .bg-primary {
+    width: 380px;
+  }
+
+  .bg-shape-1 {
+    display: none;
+  }
+
+  .bg-shape-2 {
+    display: none;
+  }
+
+  .bg-shape-3 {
+    display: none;
+  }
+
+  .bg-shape-4 {
+    display: none;
+  }
+
+  .bg-shape-5 {
+    display: none;
+  }
+
+  .bg-shape-6 {
+    display: none;
+  }
+
+  /* portforio media */
+
+  .page-title {
+    padding: 150px 0 70px;
+  }
+
+  h1, .h1{
+    font-size: 50px;
+  }
+
+  .container.row {
+    width: 380px;
+    text-align: center;
+  }
+
+  .container.mb-5 {
+    width: 380px;
+    text-align: center;
+  }
+
+  .cen {
+    padding: 0;
+  }
+
+  .bg-shape-7 {
+    display: none;
+  }
+
+  .btn-group {
+    width: 380px;
+  }
+
+  .btn-sm {
+    font-size: 13px;
+    padding: 10px 15px;
+  }
+
+  .shuffle-item {
+    padding-top: 0;
+  }
+
+  .pm {
+    padding: 0;
+    margin-bottom: 0!important;
+  }
+
+  .shuffle-wrapper {
+    width: 380px;
+  }
+  
+  .bg-dark {
+    width: 380px;
+    margin-left: 1px;
+  }
+}
+
+
+
+
 
 
 /*# sourceMappingURL=maps/style.css.map */
