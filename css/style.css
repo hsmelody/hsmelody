@@ -974,9 +974,13 @@ blockquote {
 @media (max-width: 480px) {
 
   body {
-    width: 480px;
+    width: 100%;
   }
  /* home media */
+
+ .mx-auto {
+  font-size: 45px;
+ }
 
  .hero-area {
   padding: 180px 0 90px;
@@ -996,7 +1000,8 @@ blockquote {
 
 /* about media */
   .navbar-dark {
-    padding-right: 105px;
+    width: 100%;
+    padding-right: 10px;
   }
 
   .navbar-toggler {
@@ -1017,8 +1022,7 @@ blockquote {
   }
 
   .bg-primary {
-    width: 120%;
-    height: 100%;
+    width: 480px;
   }
 
   .bg-shape-1 {
@@ -1051,18 +1055,22 @@ blockquote {
     padding: 150px 0 70px;
   }
 
-  .bg-primary {
-    width: 123%;
-    height: 100%;
-  }
-
   h1, .h1{
     font-size: 50px;
   }
 
-  .Portfolio {
+  .container.row {
     width: 480px;
     text-align: center;
+  }
+
+  .container.mb-5 {
+    width: 480px;
+    text-align: center;
+  }
+
+  .cen {
+    padding: 0;
   }
 
   .bg-shape-7 {
