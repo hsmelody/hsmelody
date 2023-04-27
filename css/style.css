@@ -1095,6 +1095,17 @@ blockquote {
     padding: 0;
     margin-bottom: 0!important;
   }
+
+  .shuffle-wrapper {
+    width: 100%;
+    margin-left: 1px;
+  }
+  
+  .bg-dark {
+    width: 100%;
+  }
 }
+
+
 
 /*# sourceMappingURL=maps/style.css.map */

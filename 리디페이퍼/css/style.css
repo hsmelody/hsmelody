@@ -606,10 +606,9 @@ video {
     }
 
     #contents>.box3>.inner>.text_box3 {
-        width: 100%;
-        text-align: right;
+        width: 480px;
         padding-top: 125px;
-        z-index: 100;
+        padding-right: 50px;
     }
 
     #contents>.box3>.inner>.text_box3>p {
