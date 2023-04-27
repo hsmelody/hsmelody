@@ -912,10 +912,18 @@ img {
 
   .home .content {
     max-width: 60rem;
-    margin-left: 37rem;
+    margin-left: 41rem;
     margin-top: 8rem;
   }
-}
+
+  .about .row .image {
+    flex: 1 1 45rem;
+  }
+  
+  .about .row .image img {
+    width: 700px;
+    padding: 0;
+  }
 
 
 .swiper-button-next,
@@ -930,6 +938,6 @@ img {
 
 @media (max-width: 480px) {
   html {
-    font-size: 50%;
+    font-size: 45%;
   }
 }
