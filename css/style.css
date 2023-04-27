@@ -974,7 +974,7 @@ blockquote {
 @media (max-width: 480px) {
 
   body {
-    width: 100%;
+    width: 480px;
   }
  /* home media */
 
@@ -1000,8 +1000,8 @@ blockquote {
 
 /* about media */
   .navbar-dark {
-    width: 100%;
-    padding-right: 10px;
+    width: 480px;
+    padding-right: 46px;
   }
 
   .navbar-toggler {
@@ -1078,8 +1078,7 @@ blockquote {
   }
 
   .btn-group {
-    width: 50%;
-    padding-left: 228px;
+    width: 480px;
   }
 
   .btn-sm {
@@ -1097,12 +1096,12 @@ blockquote {
   }
 
   .shuffle-wrapper {
-    width: 100%;
-    margin-left: 1px;
+    width: 480px;
   }
   
   .bg-dark {
-    width: 100%;
+    width: 480px;
+    margin-left: 1px;
   }
 }
 
