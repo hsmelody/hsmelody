@@ -517,7 +517,7 @@ video {
     }
 
     #contents>.box1>.box1_left {
-        width: 100%;
+        width: 480px;
         height: 500px;
         background: linear-gradient(#ffffff, #bacbd6);
         color: #000000;
@@ -535,7 +535,7 @@ video {
     }
 
     #contents>.box1>.box1_right {
-        width: 100%;
+        width: 480px;
         height: 500px;
         background-image: url(../img/button-details.png);
         float: right;
@@ -555,7 +555,7 @@ video {
     }
 
     #contents>.box2>.box2_left {
-        width: 100%;
+        width: 480px;
         height: 500px;
         background-image: url(../img/ridipaper4-white\ \(1\).png);
         float: left;
@@ -565,7 +565,7 @@ video {
     }
 
     #contents>.box2>.box2_right {
-        width: 100%;
+        width: 480px;
         height: 500px;
         background: linear-gradient(#bacbd6, #ffffff);
         color: #000000;
@@ -615,9 +615,11 @@ video {
     }
 
     #contents>.box3>.inner>.text_box3 {
-        width: 480px;
+        width: 300px;
         padding-top: 10px;
+        text-align: right;
         padding-right: 50px;
+        margin: 158px;
     }
 
     #contents>.box3>.inner>.text_box3>p {
@@ -651,7 +653,7 @@ video {
     #contents>.box4>.in>.text_box4 {
         width: 50%;
         padding-top: 10px;
-        padding-left: 45px;
+        padding-left: 23px;
     }
 
 
