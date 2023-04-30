@@ -835,7 +835,7 @@ img {
 @media (max-width: 768px) {
 
   .home {
-    min-height: 50vh;
+    min-height: 20vh;
     display: flex;
     align-items: center;
     background: url(../images/아이스크림6.jpg);
@@ -899,7 +899,7 @@ img {
   }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
 
   .home {
     width: 480px;
@@ -941,4 +941,4 @@ img {
   html {
     font-size: 45%;
   }
-}
+} */
