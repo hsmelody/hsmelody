@@ -336,17 +336,6 @@ section {
   border: 0.1rem solid var(--main-color);
 }
 
-/* .menu .box-container .box:hover {
-  background: var(--main-color);
-
-} */
-
-/* .menu .box-container .box:hover > * {
-  color: #000;
-} */
-
-/* menu end */
-
 /* cake start */
 
 .menu .box2-container {
@@ -553,47 +542,6 @@ section {
 /* product end */
 
 
-
-/* review start */
-
-/* .review .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
-}
-.review .box-container .box {
-  text-align: center;
-  border: var(--border);
-  padding: 3rem 2rem;
-}
-
-.review .box-container .box p {
-  font-size: 1.5rem;
-  line-height: 1.8rem;
-  color: #000000;
-  padding: 2rem 0;
-  text-align: center;
-}
-
-.review .box-container .box .user {
-  height: 7rem;
-  width: 7rem;
-  border-radius: 50%;
-  object-fit: cover;
-}
-.review .box-container .box h3 {
-  color: #fff;
-  font-size: 2rem;
-  padding: 1rem 0;
-}
-
-.review .box-container .box .star i {
-  color: var(--main-color);
-  font-size: 1.5rem;
-} */
-
-/* review end */
-
 /* swiper start */
 
 section {
@@ -700,11 +648,11 @@ img {
 /* contact end */
 
 .swiper-button-next, .swiper-button-prev {
-  color: #fff;
+  color: var(--main-color);
 }
 
 .swiper-pagination-bullet-active {
-  color: #fff;
+  background: var(--main-color);
 }
 
 /* blogs start */
@@ -872,12 +820,12 @@ img {
   }
 
   .home .content h3 {
-    font-size: 4.5rem;
+    font-size: 7.5rem;
     color: #272727;
   }
 
   .home .content p {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #373737;
   }
 
@@ -893,8 +841,8 @@ img {
 
   .home .content {
     max-width: 60rem;
-    margin-left: 45rem;
-    margin-top: 8rem;
+    margin-left: 35rem;
+    margin-top: -1rem;
   }
 
   .about .row .image {
@@ -916,8 +864,9 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap: 1.5rem;
 }
+}
 
-@media (max-width: 480px) {
+@media (max-width: 481px) {
 
   .header .navbar {
     position: absolute;
@@ -970,8 +919,8 @@ img {
 
   .home .content {
     max-width: 60rem;
-    margin-left: 45rem;
-    margin-top: 8rem;
+    margin-left: 24rem;
+    margin-top: -1rem;
   }
 
   .about .row .image {
@@ -997,7 +946,7 @@ img {
 
 }
 
-@media (max-width: 380px) {
+@media (max-width: 381px) {
 
   .header .navbar {
     position: absolute;
@@ -1050,8 +999,8 @@ img {
 
   .home .content {
     max-width: 60rem;
-    margin-left: 45rem;
-    margin-top: 8rem;
+    margin-left: 15rem;
+    margin-top: -1rem;
   }
 
   .about .row .image {
@@ -1130,8 +1079,8 @@ img {
 
   .home .content {
     max-width: 60rem;
-    margin-left: 45rem;
-    margin-top: 8rem;
+    margin-left: 11rem;
+    margin-top: -1rem;
   }
 
   .about .row .image {
@@ -1210,8 +1159,8 @@ img {
 
   .home .content {
     max-width: 60rem;
-    margin-left: 45rem;
-    margin-top: 8rem;
+    margin-left: 7rem;
+    margin-top: -1rem
   }
 
   .about .row .image {
@@ -1237,46 +1186,3 @@ img {
 
 }
 
-/* @media (max-width: 480px) {
-
-  .home {
-    width: 480px;
-    display: flex;
-    align-items: center;
-    background: url(../images/아이스크림6.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-
-  .home .content {
-    max-width: 60rem;
-    margin-left: 41rem;
-    margin-top: 8rem;
-  }
-
-  .about .row .image {
-    flex: 1 1 45rem;
-  }
-  
-  .about .row .image img {
-    width: 700px;
-    padding: 0;
-  }
-}
-
-
-.swiper-button-next,
-.swiper-button-prev {
-  color: #f54fa8 !important;
-}
-
-.swiper-pagination-bullet-active {
-  background: #f54fa8 !important;
-}
-
-
-@media (max-width: 480px) {
-  html {
-    font-size: 45%;
-  }
-} */
