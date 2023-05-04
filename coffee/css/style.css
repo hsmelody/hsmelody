@@ -1099,8 +1099,28 @@ img {
 
   .menu .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
     gap: 1.5rem;
+}
+
+.menu .box2-container .box .icons a {
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  border: var(--border);
+  color: #bdbdbd;
+  margin: 0.3rem;
+}
+
+.menu .box3-container .box .icons a {
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  border: var(--border);
+  color: #bdbdbd;
+  margin: 0.3rem;
 }
 
 
@@ -1179,10 +1199,29 @@ img {
 
   .menu .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
     gap: 1.5rem;
 }
 
+.menu .box3-container .box .icons a {
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  border: var(--border);
+  color: #bdbdbd;
+  margin: 0.3rem;
+}
+
+.menu .box2-container .box .icons a {
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  border: var(--border);
+  color: #bdbdbd;
+  margin: 0.3rem;
+}
 
 }
 
