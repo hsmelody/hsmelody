@@ -1281,7 +1281,7 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
   gap: 1.5rem;
-  margin-left: -1rem;
+  margin-left: -3rem;
 }
 
 .about .row .content h4 {
