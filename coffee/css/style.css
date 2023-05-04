@@ -829,6 +829,19 @@ img {
     color: #373737;
   }
 
+  .header .search-form {
+    position: absolute;
+    top: 115%;
+    right: 7%;
+    background: #fff;
+    border: 0.1rem solid #bdbdbd;
+    width: 40rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+}
 
   .home {
     min-height: 50vh;
@@ -891,6 +904,20 @@ img {
     right: 0;
   }
 
+  .header .search-form {
+    position: absolute;
+    top: 115%;
+    right: 7%;
+    background: #fff;
+    border: 0.1rem solid #bdbdbd;
+    width: 28rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
   .home {
     background-position: left;
     text-align: center;
@@ -943,6 +970,12 @@ img {
     gap: 1.5rem;
 }
 
+.about .row .content h4 {
+  font-size: 2rem;
+  color: #f395be;
+  line-height: 3.5rem;
+}
+
 
 }
 
@@ -970,6 +1003,20 @@ img {
     position: absolute;
     right: 0;
   }
+
+  .header .search-form {
+    position: absolute;
+    top: 115%;
+    right: 7%;
+    background: #fff;
+    border: 0.1rem solid #bdbdbd;
+    width: 28rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+}
 
   .home {
     background-position: left;
@@ -1023,6 +1070,12 @@ img {
     gap: 1.5rem;
 }
 
+.about .row .content h4 {
+  font-size: 2rem;
+  color: #f395be;
+  line-height: 3rem;
+}
+
 
 }
 
@@ -1050,6 +1103,20 @@ img {
     position: absolute;
     right: 0;
   }
+
+  .header .search-form {
+    position: absolute;
+    top: 115%;
+    right: 7%;
+    background: #fff;
+    border: 0.1rem solid #bdbdbd;
+    width: 28rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+}
 
   .home {
     background-position: left;
@@ -1103,6 +1170,12 @@ img {
     gap: 1.5rem;
 }
 
+.about .row .content h4 {
+  font-size: 2rem;
+  color: #f395be;
+  line-height: 3rem;
+}
+
 }
 
 @media (max-width: 301px) {
@@ -1135,6 +1208,20 @@ img {
     text-align: center;
     justify-content: center;
   }
+
+  .header .search-form {
+    position: absolute;
+    top: 115%;
+    right: 7%;
+    background: #fff;
+    border: 0.1rem solid #bdbdbd;
+    width: 28rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+}
 
   .home .content h3 {
     font-size: 4.5rem;
@@ -1181,6 +1268,12 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap: 1.5rem;
     padding-left: 2rem;
+}
+
+.about .row .content h4 {
+  font-size: 2rem;
+  color: #f395be;
+  line-height: 3rem;
 }
 
 
