@@ -1170,6 +1170,13 @@ img {
     gap: 1.5rem;
 }
 
+.menu .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  gap: 1.5rem;
+  margin-left: -1rem;
+}
+
 .about .row .content h4 {
   font-size: 2rem;
   color: #f395be;
@@ -1268,6 +1275,13 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap: 1.5rem;
     padding-left: 2rem;
+}
+
+.menu .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  gap: 1.5rem;
+  margin-left: -1rem;
 }
 
 .about .row .content h4 {
