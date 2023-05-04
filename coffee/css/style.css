@@ -61,7 +61,7 @@ section {
 }
 
 .header {
-  position: fixed;
+  position: relative;
   color: #fff;
   background-color: #ffffff;
   display: flex;
@@ -156,7 +156,7 @@ section {
   width: 35rem;
   position: absolute;
   top: 100%;
-  right: -100%;
+  right: -200%;
   height: calc(100vh - 9.5rem);
   background: #fff;
   padding: 1.5rem;
@@ -834,6 +834,7 @@ img {
 
 @media (max-width: 768px) {
 
+
   .home {
     min-height: 50vh;
     display: flex;
@@ -882,6 +883,7 @@ img {
   }
 
   .header .navbar.active {
+    position: absolute;
     right: 0;
   }
 
