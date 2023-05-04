@@ -917,6 +917,323 @@ img {
     gap: 1.5rem;
 }
 
+@media (max-width: 480px) {
+
+  .header .navbar {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    color: #000;
+    background: #fff;
+    width: 30rem;
+    height: calc(100vh - 9.5rem);
+  }
+
+  .header .navbar a {
+    color: var(--black);
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .header .navbar.active {
+    position: absolute;
+    right: 0;
+  }
+
+  .home {
+    background-position: left;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .home .content h3 {
+    font-size: 4.5rem;
+    color: #272727;
+  }
+
+  .home .content p {
+    font-size: 1.5rem;
+    color: #373737;
+  }
+
+
+  .home {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/해변.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .home .content {
+    max-width: 60rem;
+    margin-left: 45rem;
+    margin-top: 8rem;
+  }
+
+  .about .row .image {
+    flex: 1 1 45rem;
+  }
+
+  .about .row .image img {
+    width: 600px;
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap: 1.5rem;
+}
+
+
+}
+
+@media (max-width: 380px) {
+
+  .header .navbar {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    color: #000;
+    background: #fff;
+    width: 30rem;
+    height: calc(100vh - 9.5rem);
+  }
+
+  .header .navbar a {
+    color: var(--black);
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .header .navbar.active {
+    position: absolute;
+    right: 0;
+  }
+
+  .home {
+    background-position: left;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .home .content h3 {
+    font-size: 4.5rem;
+    color: #272727;
+  }
+
+  .home .content p {
+    font-size: 1.5rem;
+    color: #373737;
+  }
+
+
+  .home {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/해변.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .home .content {
+    max-width: 60rem;
+    margin-left: 45rem;
+    margin-top: 8rem;
+  }
+
+  .about .row .image {
+    flex: 1 1 45rem;
+  }
+
+  .about .row .image img {
+    width: 600px;
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap: 1.5rem;
+}
+
+
+}
+
+@media (max-width: 331px) {
+
+  .header .navbar {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    color: #000;
+    background: #fff;
+    width: 30rem;
+    height: calc(100vh - 9.5rem);
+  }
+
+  .header .navbar a {
+    color: var(--black);
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .header .navbar.active {
+    position: absolute;
+    right: 0;
+  }
+
+  .home {
+    background-position: left;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .home .content h3 {
+    font-size: 4.5rem;
+    color: #272727;
+  }
+
+  .home .content p {
+    font-size: 1.5rem;
+    color: #373737;
+  }
+
+
+  .home {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/해변.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .home .content {
+    max-width: 60rem;
+    margin-left: 45rem;
+    margin-top: 8rem;
+  }
+
+  .about .row .image {
+    flex: 1 1 45rem;
+  }
+
+  .about .row .image img {
+    width: 600px;
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap: 1.5rem;
+}
+
+
+}
+
+@media (max-width: 301px) {
+
+  .header .navbar {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    color: #000;
+    background: #fff;
+    width: 30rem;
+    height: calc(100vh - 9.5rem);
+  }
+
+  .header .navbar a {
+    color: var(--black);
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .header .navbar.active {
+    position: absolute;
+    right: 0;
+  }
+
+  .home {
+    background-position: left;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .home .content h3 {
+    font-size: 4.5rem;
+    color: #272727;
+  }
+
+  .home .content p {
+    font-size: 1.5rem;
+    color: #373737;
+  }
+
+
+  .home {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/해변.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .home .content {
+    max-width: 60rem;
+    margin-left: 45rem;
+    margin-top: 8rem;
+  }
+
+  .about .row .image {
+    flex: 1 1 45rem;
+  }
+
+  .about .row .image img {
+    width: 600px;
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap: 1.5rem;
+}
+
 
 }
 
