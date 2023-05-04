@@ -699,6 +699,14 @@ img {
 
 /* contact end */
 
+.swiper-button-next, .swiper-button-prev {
+  color: #fff;
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+}
+
 /* blogs start */
 
 .blogs .box-container {
@@ -834,36 +842,6 @@ img {
 
 @media (max-width: 768px) {
 
-
-  .home {
-    min-height: 50vh;
-    display: flex;
-    align-items: center;
-    background: url(../images/해변.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-
-  .home .content {
-    max-width: 60rem;
-    margin-left: 45rem;
-    margin-top: 8rem;
-  }
-
-  .about .row .image {
-    flex: 1 1 45rem;
-  }
-
-  .about .row .image img {
-    width: 600px;
-    padding-top: 15px;
-    padding-left: 10px;
-  }
-
-  #menu-btn {
-    display: inline-block;
-  }
-
   .header .navbar {
     position: absolute;
     top: 100%;
@@ -902,6 +880,44 @@ img {
     font-size: 1.5rem;
     color: #373737;
   }
+
+
+  .home {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/해변.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .home .content {
+    max-width: 60rem;
+    margin-left: 45rem;
+    margin-top: 8rem;
+  }
+
+  .about .row .image {
+    flex: 1 1 45rem;
+  }
+
+  .about .row .image img {
+    width: 600px;
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .menu .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap: 1.5rem;
+}
+
+
 }
 
 /* @media (max-width: 480px) {
