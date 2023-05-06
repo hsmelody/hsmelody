@@ -647,8 +647,7 @@ img {
 
 /* contact end */
 
-.swiper-button-next,
-.swiper-button-prev {
+.swiper-button-next, .swiper-button-prev {
   color: var(--main-color);
 }
 
@@ -794,7 +793,7 @@ img {
   .header .navbar {
     position: absolute;
     top: 100%;
-    display: none;
+    right: -100%;
     color: #000;
     background: #fff;
     width: 30rem;
@@ -842,7 +841,7 @@ img {
     align-items: center;
     transform: scaleY(0);
     transform-origin: top;
-  }
+}
 
   .home {
     min-height: 50vh;
@@ -877,7 +876,7 @@ img {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap: 1.5rem;
-  }
+}
 }
 
 @media (max-width: 481px) {
@@ -885,7 +884,7 @@ img {
   .header .navbar {
     position: absolute;
     top: 100%;
-    display: none;
+    right: -100%;
     color: #000;
     background: #fff;
     width: 30rem;
@@ -917,7 +916,7 @@ img {
     align-items: center;
     transform: scaleY(0);
     transform-origin: top;
-  }
+}
 
   .home {
     background-position: left;
@@ -969,13 +968,13 @@ img {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap: 1.5rem;
-  }
+}
 
-  .about .row .content h4 {
-    font-size: 2rem;
-    color: #f395be;
-    line-height: 3.5rem;
-  }
+.about .row .content h4 {
+  font-size: 2rem;
+  color: #f395be;
+  line-height: 3.5rem;
+}
 
 
 }
@@ -985,7 +984,7 @@ img {
   .header .navbar {
     position: absolute;
     top: 100%;
-    display: none;
+    right: -100%;
     color: #000;
     background: #fff;
     width: 30rem;
@@ -1017,7 +1016,7 @@ img {
     align-items: center;
     transform: scaleY(0);
     transform-origin: top;
-  }
+}
 
   .home {
     background-position: left;
@@ -1069,13 +1068,13 @@ img {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap: 1.5rem;
-  }
+}
 
-  .about .row .content h4 {
-    font-size: 2rem;
-    color: #f395be;
-    line-height: 3rem;
-  }
+.about .row .content h4 {
+  font-size: 2rem;
+  color: #f395be;
+  line-height: 3rem;
+}
 
 
 }
@@ -1085,8 +1084,7 @@ img {
   .header .navbar {
     position: absolute;
     top: 100%;
-    display: none;
-    /*     right: -100%; */
+    right: -100%;
     color: #000;
     background: #fff;
     width: 30rem;
@@ -1118,7 +1116,7 @@ img {
     align-items: center;
     transform: scaleY(0);
     transform-origin: top;
-  }
+}
 
   .home {
     background-position: left;
@@ -1170,20 +1168,20 @@ img {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap: 1.5rem;
-  }
+}
 
-  .menu .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
-    gap: 1.5rem;
-    margin-left: -1rem;
-  }
+.menu .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  gap: 1.5rem;
+  margin-left: -1rem;
+}
 
-  .about .row .content h4 {
-    font-size: 2rem;
-    color: #f395be;
-    line-height: 3rem;
-  }
+.about .row .content h4 {
+  font-size: 2rem;
+  color: #f395be;
+  line-height: 3rem;
+}
 
 }
 
@@ -1192,7 +1190,7 @@ img {
   .header .navbar {
     position: absolute;
     top: 100%;
-    display: none;
+    right: -100%;
     color: #000;
     background: #fff;
     width: 30rem;
@@ -1230,7 +1228,7 @@ img {
     align-items: center;
     transform: scaleY(0);
     transform-origin: top;
-  }
+}
 
   .home .content h3 {
     font-size: 4.5rem;
@@ -1277,21 +1275,22 @@ img {
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap: 1.5rem;
     padding-left: 2rem;
-  }
+}
 
-  .menu .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
-    gap: 1.5rem;
-    margin-left: -3rem;
-  }
+.menu .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  gap: 1.5rem;
+  margin-left: -3rem;
+}
 
-  .about .row .content h4 {
-    font-size: 2rem;
-    color: #f395be;
-    line-height: 3rem;
-  }
+.about .row .content h4 {
+  font-size: 2rem;
+  color: #f395be;
+  line-height: 3rem;
+}
 
 
 
 }
+
