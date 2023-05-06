@@ -78,6 +78,14 @@ h1,
   font-size: 80px;
 }
 
+.ing {
+  font-size: 13px;
+}
+
+.v {
+  color: #eaeaea;
+}
+
 @media (max-width: 991px) {
 
   h1,
