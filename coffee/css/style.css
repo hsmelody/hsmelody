@@ -793,7 +793,7 @@ img {
   .header .navbar {
     position: absolute;
     top: 100%;
-    right: -100%;
+    overflow: hidden;
     color: #000;
     background: #fff;
     width: 30rem;
@@ -884,7 +884,7 @@ img {
   .header .navbar {
     position: absolute;
     top: 100%;
-    right: -100%;
+    overflow: hidden;
     color: #000;
     background: #fff;
     width: 30rem;
@@ -984,7 +984,7 @@ img {
   .header .navbar {
     position: absolute;
     top: 100%;
-    right: -100%;
+    overflow: hidden;
     color: #000;
     background: #fff;
     width: 30rem;
@@ -1084,7 +1084,8 @@ img {
   .header .navbar {
     position: absolute;
     top: 100%;
-    right: -100%;
+    overflow: hidden;
+/*     right: -100%; */
     color: #000;
     background: #fff;
     width: 30rem;
@@ -1190,7 +1191,7 @@ img {
   .header .navbar {
     position: absolute;
     top: 100%;
-    right: -100%;
+    overflow: hidden;
     color: #000;
     background: #fff;
     width: 30rem;
