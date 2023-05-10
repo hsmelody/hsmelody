@@ -32,6 +32,10 @@ body {
   width: 50%;
 }
 
+.logo {
+  width: 77px;
+}
+
 p,
 .paragraph {
   font-weight: 400;
