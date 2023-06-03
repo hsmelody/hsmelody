@@ -339,7 +339,7 @@ a:hover {
 }
 
 .mb-4 {
-  width: 50%;
+  width: 100%;
   padding-top: 150px;
 }
 
@@ -498,6 +498,10 @@ textarea.form-control {
 .navigation.nav-bg {
   background-color: #41228e;
   padding: 15px 100px;
+}
+
+.img1 {
+  width: 50%;
 }
 
 @media (max-width: 991px) {
